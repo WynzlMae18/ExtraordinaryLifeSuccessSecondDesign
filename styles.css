@@ -1,0 +1,140 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #E7E4D6;
+    color: #415A71;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #415A71;
+    color: #E7E4D6;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #E7E4D6;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ACC6A3;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: 'Playfair Display', serif;
+}
+
+nav a:hover {
+    background-color: #415A71;
+    color: #E7E4D6;
+}
+
+.hero {
+    background: url('path/to/your/hero-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #E7E4D6;
+    padding: 2rem;
+}
+
+.hero-content {
+    background-color: rgba(65, 90, 113, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero-content p {
+    margin-bottom: 1rem;
+}
+
+.hero-content button {
+    background-color: #ACC6A3;
+    color: #415A71;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-content button:hover {
+    background-color: #415A71;
+    color: #E7E4D6;
+}
+
+main {
+    padding: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-text {
+    max-width: 800px;
+}
+
+.content h2 {
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.content-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 10px;
+    float: left;
+    margin-right: 1rem;
+}
+
+.content-text p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.content-text ul {
+    list-style: disc;
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.content-text button {
+    background-color: #415A71;
+    color: #E7E4D6;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Playfair Display', serif;
+}
+
+.content-text button:hover {
+    background-color: #ACC6A3;
+    color: #415A71;
+}
